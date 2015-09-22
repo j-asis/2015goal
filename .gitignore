@@ -7,4 +7,3 @@ readme.md
 .DS_Store
 composer.phar
 /storage/debugbar
-composer.lock
