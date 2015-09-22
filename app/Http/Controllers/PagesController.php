@@ -9,4 +9,9 @@ class PagesController extends BaseController
     {
         return view('welcome');
     }
+
+    public function admin()
+    {
+        return view('admin');
+    }
 }
