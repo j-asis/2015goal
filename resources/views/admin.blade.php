@@ -27,11 +27,11 @@ gapi.analytics.ready(function() {
 
   // Step 3: Authorize the user.
 
-  var CLIENT_ID = '1096208784504-urjmd8ni7p40nf2vmone0st5mj7ras7o.apps.googleusercontent.com';
+  var CLIENT_ID = '66943339517-c94pr8uq685cchi98939jpr8d7609ip0.apps.googleusercontent.com';
 
   gapi.analytics.auth.authorize({
     container: 'auth-button',
-    clientid: CLIENT_ID,
+    clientid: CLIENT_ID
   });
 
   // Step 4: Create the view selector.
@@ -48,7 +48,7 @@ gapi.analytics.ready(function() {
       'dimensions': 'ga:date',
       'metrics': 'ga:sessions',
       'start-date': '30daysAgo',
-      'end-date': 'yesterday',
+      'end-date': 'yesterday'
     },
     chart: {
       type: 'LINE',
