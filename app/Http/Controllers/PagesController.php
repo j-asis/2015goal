@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Support\Facades\Auth;
 
 class PagesController extends BaseController
 {
@@ -17,5 +18,5 @@ class PagesController extends BaseController
         }
         return view('admin');
     }
-    
+
 }
