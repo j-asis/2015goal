@@ -1,4 +1,5 @@
 <?php
 
+Route::get('/', ['as' => 'welcome', 'uses' => 'PagesController@welcome']);
 Route::get('/welcome', ['as' => 'welcome', 'uses' => 'PagesController@welcome']);
-Route::get('/',   ['as' => 'admin', 'uses' => 'PagesController@admin']);
+Route::get('/admin',   ['as' => 'admin', 'uses' => 'PagesController@admin']);
