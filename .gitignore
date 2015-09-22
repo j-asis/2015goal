@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+Homestead.yaml
+.env
+readme.md
+.idea/
+.DS_Store
+composer.phar
+/storage/debugbar
+composer.lock
