@@ -13,6 +13,9 @@ class PagesController extends BaseController
 
     public function admin()
     {
+        if (env('is_live', true)) {
+            return redirect()->route('welcome');
+        }
         return view('admin');
     }
 
