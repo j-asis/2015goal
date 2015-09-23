@@ -10,6 +10,10 @@ class PagesController extends BaseController
     {
         return view('welcome');
     }
+    public function game()
+    {
+        return view('game');
+    }
 
     public function admin()
     {
