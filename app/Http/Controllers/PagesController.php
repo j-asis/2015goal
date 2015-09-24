@@ -19,6 +19,11 @@ class PagesController extends BaseController
         return view('pong');
     }
 
+    public function snake()
+    {
+        return view('snake');
+    }
+
     public function admin()
     {
         if (env('is_live', true)) {
