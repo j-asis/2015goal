@@ -6,3 +6,4 @@ Route::get('/game', ['as' => 'game', 'uses' => 'PagesController@game']);
 Route::get('/admin',   ['as' => 'admin', 'uses' => 'PagesController@admin']);
 Route::get('/ping-pong',   ['as' => 'pong', 'uses' => 'PagesController@pong']);
 Route::get('/snake',   ['as' => 'snake', 'uses' => 'PagesController@snake']);
+Route::get('/diamondrush',   ['as' => 'diamondrush', 'uses' => 'PagesController@diamondrush']);

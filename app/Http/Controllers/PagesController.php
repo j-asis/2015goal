@@ -23,6 +23,10 @@ class PagesController extends BaseController
     {
         return view('snake');
     }
+    public function diamondrush()
+    {
+        return view('diamondrush');
+    }
 
     public function admin()
     {

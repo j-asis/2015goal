@@ -53,6 +53,7 @@
                 <a href="{{ route('game') }}">Tic Tac Toe</a> |
                 <a href="{{ route('pong') }}">Ping Pong</a> |
                 <a href="{{ route('snake') }}">Snake</a> |
+                <a href="{{ route('diamondrush') }}">Rei Games</a> |
 
             </div>
         </div>
