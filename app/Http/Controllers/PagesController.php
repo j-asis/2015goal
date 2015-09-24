@@ -14,6 +14,10 @@ class PagesController extends BaseController
     {
         return view('game');
     }
+    public function pong()
+    {
+        return view('pong');
+    }
 
     public function admin()
     {
