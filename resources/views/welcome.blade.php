@@ -49,7 +49,11 @@
         <div class="container">
             <div class="content">
                 <div class="title">Hello there! Welcome to my site!</div>
-                <a href="{{ route('game') }}">Click here for some game!</a>
+                Click here for some game! <br/> |
+                <a href="{{ route('game') }}">Tic Tac Toe</a> |
+                <a href="{{ route('pong') }}">Ping Pong</a> |
+                <a href="{{ route('snake') }}">Snake</a> |
+
             </div>
         </div>
     </body>
